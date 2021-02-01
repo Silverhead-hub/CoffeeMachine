@@ -74,38 +74,6 @@ public class CoffeeMachine {
         System.out.println(countMoney + " of money");
     }
 
-    /*public static void numberServings(){
-
-        System.out.println("Write how many ml of water the coffee machine has: ");
-        countWater = scanner.nextInt();
-        System.out.println("Write how many ml of milk the coffee machine has: ");
-        countMilk = scanner.nextInt();
-        System.out.println("Write how many grams of coffee beans the coffee machine has: ");
-        countCoffee = scanner.nextInt();
-        System.out.println("Write how many cups of coffee you will need: ");
-        needCups = scanner.nextInt();
-
-        int a = countWater/oneWater;
-        int b = countMilk/oneMilk;
-        int c = countCoffee/oneCoffeeBeans;
-
-        int canBeCups = 0;
-        if(a <= b && a <= c)
-            canBeCups = a;
-        else if(b <= a && b <= c)
-            canBeCups = b;
-        else if(c <= a && c <= b)
-            canBeCups = c;
-
-        if( needCups == canBeCups){
-            System.out.println("Yes, I can make that amount of coffee");
-        }
-        else if( needCups > canBeCups)
-            System.out.println("No, I can make only "+ canBeCups +" cup(s) of coffee");
-        else
-            System.out.println("Yes, I can make that amount of coffee (and even "+ (canBeCups - needCups) +" more than that)");
-    }*/
-
     public static void fill() {
 
         System.out.println("Write how many ml of water do you want to add:");
